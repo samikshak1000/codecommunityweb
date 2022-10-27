@@ -1,0 +1,445 @@
+/* css reset */
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("Img/bg.webp");
+    height: 2300px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+
+}
+
+.left img {
+    width: 140px;
+    border-radius: 10px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 19px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    padding: 2px;
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+    ;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover {
+    color: rgb(190, 241, 225);
+    text-decoration: underline;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(33, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 66px 265px;
+    padding: 19px 300px;
+    width: 305px;
+    border-radius: 24px;
+    box-shadow: 0.6em 0.6em 1.2em aqua,
+        -0.5em -0.5em 1.0em aqua;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    padding: 2px;
+    width: 554px;
+    border: 2px solid black;
+    margin: 5px -137px;
+    font-size: 20px;
+    border-radius: 8px;
+
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    margin: auto;
+}
+
+.intro h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(51, 240, 22);
+    font-size: 40px;
+
+
+}
+
+.intro h3 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro h4 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.end {
+    background: rgba(0, 0, 0, 0.7) url('background\ 1.png');
+    background-size: cover;
+    background-blend-mode: darken;
+    text-align: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container1 .team {
+    width: 330px;
+    height: 356px;
+    padding: 35px 10px;
+    margin: 20px;
+    background: whitesmoke;
+    box-shadow: 0.6em 0.6em 1.2em rgb(24, 24, 23),
+        -0.5em -0.5em 1.0em rgb(24, 24, 23);
+    border-radius: 20px;
+}
+
+.container1 .team .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 .team .content .image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+
+.container1 .team .content .image .img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container1 .team .content .contentname h4 {
+    color: rgb(4, 0, 255);
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 15px 5px;
+    padding: 6px 5px;
+}
+
+.container1 .team .content .contentname h5 {
+    color: grey;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-align: center;
+    padding: 19px 22px;
+    margin: -13px 8px;
+}
+
+.container1 .team .content .social {
+    text-decoration: none;
+    color: grey;
+    font-size: 30px;
+    margin: 9px;
+    transition: color 0.4s;
+}
+
+.container1 .team .content .social a:hover {
+    color: aqua;
+}
+
+.head {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orange;
+}
+
+.fact {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: 0.6em 0.6em 1.2em aqua,
+        -0.5em -0.5em 1.0em aqua;
+    border-radius: 20px;
+
+
+}
+
+.fact a {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+.fact a:hover {
+    background-color: royalblue;
+    color: white;
+    -webkit-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -moz-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    -o-transition: background-color 0.6s ease-out, color 0.6s ease-out;
+    transition: background-color 0.6s ease-out, color 0.6s ease-out;
+}
+
+.link {
+    text-align: center;
+    color: gold;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin: 50px 39%;
+
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.youtube {
+    margin: 2px 3px;
+    padding: 2px 40px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: red;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px 60px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.vid {
+    font-size: 30px;
+    text-align: center;
+font-weight: 200;
+background-image: linear-gradient(to bottom left, #6044af, #06f9ac);
+border: 2px solid white;
+color: transparent;
+margin: 50px 425px;
+padding: 0px 40px;
+border-radius: 10px;
+background-clip: text;
+-webkit-background-clip: text;
+}
+
+.course {
+    /* color: white;
+    text-align: center;
+    box-shadow: 0.6em 0.6em 1.2em rgb(246, 165, 59), -0.5em -0.5em 1em rgb(246, 165, 59);
+    background-color: black;
+    padding: 1px 15px;
+    margin: 23px 475px;
+    border: red;
+    border-radius: 20px; */
+    font-size: 30px;
+    text-align: center;
+font-weight: 200;
+background-image: linear-gradient(to bottom left, #6044af, #06f9ac);
+border: 2px solid white;
+color: transparent;
+margin: 50px 425px;
+padding: 0px 40px;
+border-radius: 10px;
+background-clip: text;
+-webkit-background-clip: text;
+}
+
+.contentname h4 {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.test {
+    border: 2px solid white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 90px;
+}
+
+.test::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.test img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.test span {
+    font-size: 20px;
+    color: aqua;
+    margin-right: 15px;
+}
+
+.test strong {
+    color: wheat;
+}
+
+.tasty {
+    color: gold;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .container {
+        text-align: center;
+    }
+
+    .test img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+}
