@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: #13101d;
+    color: whitesmoke;
+    font-family: 'Ubuntu Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    background-color: #13101d;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 3em;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 3em;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+nav h1 {
+    margin-left: 3em;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 svg {
+    margin-right: 10px;
+}
+
+.hero {
+    height: 85%;
+    display: flex;
+    margin-left: 5em;
+}
+
+.hero .description {
+    width: 40%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero img {
+    height: 25em;
+}
+
+.main-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    margin-top: 9%;
+}
+
+.team {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team h1 {
+  margin-bottom: 2em;
+}
+
+.team .socials {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15%;
+}
+
+.card {
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 200px;
+}
+
+.card h1 {
+    margin-bottom: 10px;
+}
+
+.card h2 {
+  color: #a098c0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.card img {
+  border-radius: 20px;
+  height: 200px;
+  width: 190px;
+}
+
+.card .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly; 
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.not-hired {
+  width: 200px;
+  text-align: center;
+}
+
+.not-hired h1 {
+  margin-top: 4em;
+}
+
+.not-hired button {
+  margin-top: 4em;
+  padding: 6px 20px;
+  color: whitesmoke;
+  background-color: #13101d;
+  border: 2px solid #b6aed3;
+  border-radius: 5px;
+}
