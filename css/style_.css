@@ -161,3 +161,9 @@ nav h1 svg {
   border: 2px solid #b6aed3;
   border-radius: 5px;
 }
+
+.footer {
+  background-color: black;
+  height: 50px;
+  text-align: center;
+}
