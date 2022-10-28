@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 html {
   scroll-behavior: smooth;
@@ -100,6 +101,10 @@ nav h1 svg {
   display: flex;
   justify-content: space-around;
   margin-left: 15%;
+}
+
+.team .socials a {
+  color: whitesmoke;
 }
 
 .card {
